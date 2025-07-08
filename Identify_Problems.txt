@@ -1,0 +1,14 @@
+The script runs the find command in every loop.
+For each file, it scans the whole folder again to look for files with the same size.
+The script only compares:
+-the file size
+-the file name without the extension
+
+This does not guarantee that the files are the same. Two different files can:
+-have the same size
+-have the same base name
+-but have completely different content.
+
+There is no confirmation from the user about which file to delete.
+
+It’s easy to accidentally delete files (there is a commented-out line for deleting).
