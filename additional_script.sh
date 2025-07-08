@@ -1,3 +1,6 @@
+#I don't know if I understood the task correctly so,
+#I present my first concept of removing duplicate files in a directory.
+
 #!/bin/bash
 
 dir="/path/to/directory"
